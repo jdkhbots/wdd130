@@ -3,7 +3,7 @@ nav {
   padding: 10px;
 }
 main {
-  width: 1000px;
+  max-width: 1000px;
 }
 aside {
   width: 20rem;
@@ -37,7 +37,7 @@ main img {
 }
 
 p {
-  padding: 0px;
+  padding: 0;
 }
 
 footer{
