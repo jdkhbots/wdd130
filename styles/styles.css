@@ -26,9 +26,9 @@ aside img{
 }
 
 aside h2{
-  position: relative;
+  position: absolute;
   top: 100px;
-  left: 0;
+  left: 120px;
 }
 
 nav a {
@@ -67,4 +67,4 @@ footer{
   color: #000;
 }
 
-/* Class Selectors*/
+/*Class Selectors*/
