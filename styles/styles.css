@@ -17,6 +17,7 @@ aside {
   background-color: blueviolet;
   color: aliceblue;
   text-align: center;
+  position: relative;
 }
 
 aside img{
@@ -25,9 +26,9 @@ aside img{
 }
 
 aside h2{
-  position: absolute;
-  top: 650px;
-  left: 130px;
+  position: relative;
+  top: 100px;
+  left: 0;
 }
 
 nav a {
@@ -58,8 +59,6 @@ footer{
   text-align: center;
 }
 
-/* Class Selectors*/
-
 .box{
   margin: 1rem;
   padding: 1rem;
@@ -67,3 +66,5 @@ footer{
   background-color: #ddd;
   color: #000;
 }
+
+/* Class Selectors*/
