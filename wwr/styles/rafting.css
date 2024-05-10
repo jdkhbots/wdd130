@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     --primary-color: #279AF1;
@@ -24,9 +24,12 @@
     top: 10px;
     text-align: center;
     color: white;
-    font: var(--heading-font);
     font-size: x-large;
     background-color: rgba(119, 110, 161, 0.212);
+}
+
+h1 {
+    font-family: var(--heading-font);
 }
 
 header img{
@@ -43,7 +46,6 @@ article{
     position:absolute;
     top: 160px;
     height: 120px;
-    content: 20px;
     padding: 5px;
     border: 0;
     color: whitesmoke;
@@ -63,16 +65,22 @@ article{
 header {
     padding: 20px;
 }
-  
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 p {
     padding: 25px;
-    font: var(--paragraph-font);
 }
 
 nav a {
     text-decoration: none;
     padding: 1rem;
-} 
+}
+
 footer img{
     width: 20px;
 }
