@@ -41,17 +41,16 @@ header img{
 }
 
 article img:not(.exception) {
-    width: 20%;
+    width: 14%;
     float: right;
     padding: 5px;
 }
 
 article{
     position:absolute;
-    bottom: 70px;
+    bottom: 90px;
     width: auto;
     height: 100px;
-    padding: 5px;
     color: whitesmoke;
     background-color: rgba(50, 102, 122, 0.5);
 }
