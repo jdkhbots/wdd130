@@ -45,7 +45,8 @@ article img:not(.exception) {
 article{
     position:absolute;
     top: 160px;
-    height: 120px;
+    width: 100%;
+    height: auto;
     padding: 5px;
     border: 0;
     color: whitesmoke;
