@@ -19,6 +19,10 @@
     position: relative;
 }
 
+.hero img {
+    width: 100%;
+}
+
 .hero h1 {
     position: absolute;
     top: 10px;
@@ -45,8 +49,8 @@ article img:not(.exception) {
 article{
     position:absolute;
     top: 160px;
-    width: 100%;
-    height: auto;
+    width:auto;
+    height: 100px;
     padding: 5px;
     border: 0;
     color: whitesmoke;
