@@ -108,6 +108,11 @@ h2 {
     height: auto;
 }
 
+.adventure figcaption{
+    
+    font-size: small;
+}
+
 p {
     padding: 25px;
 }
@@ -124,7 +129,7 @@ footer {
 }
 
 footer nav{
-    align-self: flex-end center;
+    align-self: center;
     flex: 1;
 }
 
