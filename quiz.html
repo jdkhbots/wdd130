@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <meta name="description" content="This form is created for a basic quiz to test understanding on html and css">
+    <meta name="author" content="John Derek Kakraba Hagan">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <p>Quiz</p>
+    </header>
+    <main>
+        <form>
+            <label for="q1">1. What does HTML stand for?</label>
+            <input type="text" id="q1" name="q1">
+            <label for="q2">2. Describe how a CSS file is linked to an html file.</label>
+            <textarea id="q2" name="q2" rows="3" placeholder="Description"></textarea>
+            <label type="q3">3. Every HTML code ends with?</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="&lt;/footer&gt;">&lt;/footer&gt;</option>
+                <option value="&lt;/header&gt;">&lt;/header&gt;</option>
+                <option value="&lt;/html&gt;">&lt;/html&gt;</option>
+                <option value="&lt;/DOCTYPE&gt;">&lt;/DOCTYPE&gt;</option>
+            </select>
+            <label for="q4">4. In a grid display where columns are given "1fr 2fr", how many columns has the grid?</label>
+            <input type="number" id="q4" name="q4">
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>    
+</body>
+</html>
