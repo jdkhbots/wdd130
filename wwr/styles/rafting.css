@@ -26,7 +26,7 @@
 .hero h1 {
     position: absolute;
     top: 10px;
-    text-align: center;
+    text-align: center; 
     color: white;
     font-size: x-large;
     background-color: rgba(119, 110, 161, 0.212);
@@ -34,6 +34,7 @@
 
 h1 {
     font-family: var(--heading-font);
+    align-self: center;
 }
 
 header img{
@@ -138,4 +139,84 @@ footer p{
 
 footer img{
     width: 20px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 500px;
+}
+
+.info div h4, 
+.info div p {
+    margin: 5px 0; /* Adjust as necessary */
+    padding: 0; /* Ensure no padding is added */
+}
+
+#cname, #useremail {
+    width: 15rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+}
+iframe {
+    width: 10rem;
+    height: 10rem;
+    align-self: self-end;
+}
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+    align-items: center;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 10rem;
+    text-align: center;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+  button:hover {
+    background-color: rgb(114, 89, 230);
+    
+}
+
+.employees img {
+    width: 10rem;
+    height: auto;
+}
+
+.employees {
+    display: flex;
+}
+
+textarea {
+    width: 400px;
 }
