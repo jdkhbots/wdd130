@@ -75,6 +75,7 @@ header {
     justify-content: space-around;
 }
 
+
 header nav {
     
     width: 100%;
@@ -114,7 +115,7 @@ h2 {
 }
 
 p {
-    padding: 25px;
+    padding: 20px;
 }
 
 nav a {
@@ -144,7 +145,7 @@ footer img{
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 500px;
+    gap: 450px;
 }
 
 .info div h4, 
@@ -195,7 +196,10 @@ button {
     font-size: 1.2rem;
     width: 10rem;
     text-align: center;
-    
+}
+
+.questions p {
+    padding: 0;
 }
 
 .button-container {
