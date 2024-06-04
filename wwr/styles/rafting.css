@@ -34,7 +34,8 @@
 
 h1 {
     font-family: var(--heading-font);
-    align-self: center;
+    text-align: center;
+    font-weight: 100;
 }
 
 header img{
@@ -95,9 +96,7 @@ body {
     grid-template-columns: 1fr 1fr;    
 }
 
-h2 {
-    text-align: center;
-}
+
 
 .adventure-grid {
     display: grid;
