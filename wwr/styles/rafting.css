@@ -288,3 +288,62 @@ table tbody tr:nth-of-type(even) {
 table tbody tr:last-of-type {
     border-bottom: 2px solid var(--primary-color);
 }
+
+/*Index file*/
+aside {
+    width: 20rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    grid-column: 2;
+}
+
+.news-call {
+    display: grid;
+    max-width: 960px;
+}
+
+.call {
+    order: 0;
+}
+
+.call h2 {
+    font-size: xxx-large;
+}
+
+.news {
+    order: 1;
+}
+
+.purpose-offering {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.purpose img{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    float: left;
+}
+
+.offering img {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    float: right;
+}
+
+.purpose-offering p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+label {
+    font-weight: bolder;
+    font-size: large;
+}
